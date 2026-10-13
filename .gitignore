@@ -1,0 +1,27 @@
+# Environment secrets
+.env
+*.env
+
+# Vector databases & pre-computed caches
+chroma_db/
+vector_db/
+*.sqlite3
+*.bin
+*.pickle
+
+# Large archive files
+*.zip
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environment & IDE
+.venv/
+venv/
+.vscode/
+
+# Streamlit secrets
+.streamlit/secrets.toml
